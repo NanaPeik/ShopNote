@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/forButton"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Registration"
+    android:fontFamily="sans-serif-smallcaps"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:textSize="32dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+</TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+            <EditText
+                android:id="@+id/register_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:hint="Username"
+                android:drawableLeft="@drawable/user4"
+                android:padding="8dp">
+
+            </EditText>
+
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:drawableLeft="@drawable/pass2"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp">
+
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@color/g"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="registration"
+            android:shadowColor="@color/colorPrimary"
+            android:text="Sign Up"
+            android:textSize="20dp">
+
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="right"
+            android:onClick="alreadyRegistered"
+            android:text="Already Registered"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22dp">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

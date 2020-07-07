@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@color/forButton"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:textSize="45dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Create Shop List" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/shop1">
+    </ImageView>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/sign_In_Button"
+        android:text="Sign In"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:background="@color/g"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:layout_marginTop="22dp"
+        android:id="@+id/sign_Up_Button"
+        android:text="Sign Up"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:background="@color/g"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
